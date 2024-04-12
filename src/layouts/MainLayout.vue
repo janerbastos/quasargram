@@ -78,9 +78,13 @@ export default {
   .q-footer
     .q-tab__icon
       font-size: 30px
-  
-  .constrain
-    max-width: 975px
-    margin: 0 auto
+
+  .card-post
+    .q-img
+      min-height: 200px
+    
+  .camera-frame
+    border: 2px solid $grey-10
+    border-radius: 10px
 
 </style>
